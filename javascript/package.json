@@ -1,0 +1,21 @@
+{
+    "name": "javascript",
+    "version": "1.0.0",
+    "scripts": {
+        "start:calc": "parcel calculator/index.html",
+        "start:count": "parcel counter/index.html",
+        "lint": "eslint",
+        "test": "cypress run"
+    },
+    "keywords": [],
+    "author": "Asish Mahapatra",
+    "license": "ISC",
+    "description": "Javascript Assignment Pre KDU",
+    "devDependencies": {
+        "@html-eslint/eslint-plugin": "^0.27.0",
+        "@html-eslint/parser": "^0.27.0",
+        "cypress": "^13.15.2",
+        "eslint": "^9.15.0",
+        "parcel": "^2.13.0"
+    }
+}

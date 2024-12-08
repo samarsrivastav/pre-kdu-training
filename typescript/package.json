@@ -1,0 +1,28 @@
+{
+    "name": "typescipt",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "tsc": "tsx",
+        "lint": "eslint",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "Asish Mahapatra",
+    "license": "ISC",
+    "description": "Javascript Assignment Pre KDU",
+    "devDependencies": {
+        "@eslint/js": "^9.15.0",
+        "@types/eslint__js": "^8.42.3",
+        "@types/jest": "^29.5.14",
+        "eslint": "^9.15.0",
+        "ts-jest": "^29.2.5",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.14.0"
+    },
+    "dependencies": {
+        "jest": "^29.7.0",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.2"
+    }
+}
