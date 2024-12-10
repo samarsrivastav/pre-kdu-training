@@ -13,8 +13,8 @@ The IDs should match or else the tests will fail.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
   </head>
   <body>
@@ -27,17 +27,17 @@ The IDs should match or else the tests will fail.
         <button id="decrement">-</button>
       </div>
     </main>
-    <script>
-      const inc = document.getElementById("increment");
-      const dec = document.getElementById("decrement");
-      inc.addEventListener("click", () => {
-        var value = parseInt(document.getElementById("output").innerHTML);
-        value += 1;
-        document.getElementById("output").innerHTML = value;
-      });
-      dec.addEventListener("click", () => {
-        document.getElementById("output").innerHTML -= 1;
-      });
-    </script>
-  </body>
+    <script>const inc = document.getElementById("increment");
+const dec = document.getElementById("decrement");
+inc.addEventListener("click", ()=>{
+    var value = parseInt(document.getElementById("output").innerHTML);
+    value += 1;
+    document.getElementById("output").innerHTML = value;
+});
+dec.addEventListener("click", ()=>{
+    document.getElementById("output").innerHTML -= 1;
+});
+
+</script>
+  <script src="/counter.eb336050.js"></script></body>
 </html>
