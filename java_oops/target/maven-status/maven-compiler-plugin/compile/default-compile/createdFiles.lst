@@ -1,0 +1,13 @@
+com/prekdu/LibraryMember.class
+com/prekdu/ResourceNotAvailableException.class
+com/prekdu/MaximumLoanExceededException.class
+com/prekdu/LibraryResource.class
+com/prekdu/InvalidMembershipException.class
+com/prekdu/Reservable.class
+com/prekdu/package-info.class
+com/prekdu/Book.class
+com/prekdu/ContentFormat.class
+com/prekdu/MembershipType.class
+com/prekdu/Renewable.class
+com/prekdu/ResourceStatus.class
+com/prekdu/DigitalContent.class
