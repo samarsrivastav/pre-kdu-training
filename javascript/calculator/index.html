@@ -1,14 +1,47 @@
-<!-- 
-Create a webpage with a simple calculator
-Create two fields to take input of two numbers
-Create 4 buttons to perform 4 operations - Add, Subtract, Divide, Multiply
-Alert the result based on the button that was clicked.
-
-Make sure the input fields have an id of num1 and num2
-Make sure the “Add” button has an id of add
-Make sure the “Subtract” button has an id of subtract
-Make sure the “Multiply” button has an id of multiply
-Make sure the “Divide” button has an id of divide
-
-The IDs should match or else the tests will fail.
- -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <main>
+      <input type="number" placeholder="number1" id="num1" />
+      <input type="number" placeholder="number2" id="num2" />
+      <button id="add">Add '+'</button>
+      <button id="subtract">Subtract '-'</button>
+      <button id="divide">Divide '/'</button>
+      <button id="multiply">Multiply '*'</button>
+    </main>
+    <div class="output">
+      <h1>Result is <span id="output">XXX</span></h1>
+    </div>
+    <script>
+      const addBtn = document.getElementById("add");
+      const subtractBtn = document.getElementById("subtract");
+      const divideBtn = document.getElementById("divide");
+      const multiplyBtn = document.getElementById("multiply");
+      addBtn.addEventListener("click", () => {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        const num2 = parseFloat(document.getElementById("num2").value);
+        document.getElementById("output").innerHTML = num1 + num2;
+      });
+      subtractBtn.addEventListener("click", () => {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        const num2 = parseFloat(document.getElementById("num2").value);
+        document.getElementById("output").innerHTML = num1 - num2;
+      });
+      divideBtn.addEventListener("click", () => {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        const num2 = parseFloat(document.getElementById("num2").value);
+        document.getElementById("output").innerHTML = num1 / num2;
+      });
+      multiplyBtn.addEventListener("click", () => {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        const num2 = parseFloat(document.getElementById("num2").value);
+        document.getElementById("output").innerHTML = num1 * num2;
+      });
+    </script>
+  </body>
+</html>
