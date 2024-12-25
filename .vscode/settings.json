@@ -1,3 +1,0 @@
-{
-    "java.checkstyle.configuration": "${workspaceFolder}/java_oops/target/checkstyle-checker.xml"
-}
