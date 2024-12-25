@@ -1,0 +1,1 @@
+select e.employee_id,e.employee_name,d.department_id from employee e JOIN department d ON e.department_id=d.department_id;
